@@ -1,0 +1,148 @@
+/* Import CSS external & font icon */
+@import url("fonts.css");
+@import url("fontello/css/fontello.css");
+@import url("font-awesome/css/font-awesome.min.css");
+
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+   display: block;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+
+
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+   -webkit-font-smoothing: antialiased;
+}
+
+body {
+   background: #fff;
+   font-family: 'opensans-regular', sans-serif;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 30px;
+	color: #838C95;
+
+   -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3, h4 {
+   color: #313131;
+	font-family: 'opensans-bold', sans-serif;
+   font-weight: normal;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; }
+h2 { font-size: 28px; line-height: 36px; margin-bottom:  6px; }
+h3 { font-size: 22px; line-height: 30px; margin-bottom: 12px; }
+h4 { font-size: 20px; line-height: 30px; margin-bottom:  6px; }
+
+p { margin: 0 0 30px 0; }
+
+p.lead {
+   font: 19px/36px 'opensans-light', sans-serif;
+   margin-bottom: 18px;
+}
+
+hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 30px; height: 0; }
+
+a, a:visited {
+   text-decoration: none;
+   outline: 0;
+   color: #11ABB0;
+
+   -webkit-transition: color .3s ease-in-out;
+      -moz-transition: color .3s ease-in-out;
+        -o-transition: color .3s ease-in-out;
+           transition: color .3s ease-in-out;
+}
+
+a:hover, a:focus { color: #313131; }
+
+p a, p a:visited { line-height: inherit; }
+
+ul, ol { margin-bottom: 24px; margin-top: 12px; }
+
+ul { list-style: none outside; }
+
+li { line-height: 18px; margin-bottom: 12px; }
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+.row {
+   width: 96%;
+   max-width: 1020px;
+   margin: 0 auto;
+}
+
+.row .row { width: auto; max-width: none; margin: 0 -20px; }
+
+.row:before, .row:after {
+    content: " ";
+    display: table;
+}
+.row:after {
+    clear: both;
+}
+
+.column, .columns {
+   position: relative;
+   padding: 0 20px;
+   min-height: 1px;
+   float: left;
+}
+
+[class*="column"] + [class*="column"]:last-child { float: right; }
+
+/* Column widths as twelve columns */
+.row .one    { width: calc( 1/12); }
+.row .two    { width: calc( 2/12); }
+.row .three  { width: calc( 3/12); }
+.row .four   { width: calc( 4/12); }
+.row .five   { width: calc( 5/12); }
+.row .six    { width: calc( 6/12); }
+.row .seven  { width: calc( 7/12); }
+.row .eight  { width: calc( 8/12); }
+.row .nine   { width: calc( 9/12); }
+.row .ten    { width: calc(10/12); }
+.row .eleven { width: calc(11/12); }
+.row .twelve { width: calc(12/12); }
